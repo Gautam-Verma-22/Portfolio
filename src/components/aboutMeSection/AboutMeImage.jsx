@@ -3,7 +3,7 @@ const AboutMeImage = () => {
     <div className="h-[500px] w-[300px] relative">
       <div className="h-[500px] w-[350px] rounded-[100px] absolute overflow-hidden">
         <img
-          src="../../public/images/me2.jpg"
+          src="/images/me2.jpg"
           alt="About Me Image"
           className="h-full w-auto object-cover"
         />
