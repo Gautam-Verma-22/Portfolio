@@ -16,18 +16,31 @@ const AboutMeText = () => {
         continuous learning and sharing knowledge to further develop our skills
         to achieve our goals.
       </p>
-      <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
-        <Link
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-120}
-          to="projects"
-          className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
-        >
-          My Projects
-        </Link>
-      </button>
+      <div className="flex gap-5">
+        <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
+          <Link
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-120}
+            to="projects"
+            className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
+          >
+            My Projects
+          </Link>
+        </button>
+
+        <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
+          <a
+            href="https://drive.google.com/file/d/1Ii9BK49qx6lR8I1ZjGZFWySTs1hDzyde/view?usp=sharing" // Replace with your resume link
+            target="_blank" // Opens the link in a new tab
+            rel="noopener noreferrer" // Recommended for security when using target="_blank"
+            className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
+          >
+            Download Resume
+          </a>
+        </button>
+      </div>
     </div>
   );
 };

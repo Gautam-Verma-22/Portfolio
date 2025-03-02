@@ -10,10 +10,21 @@ import { SiMongodb } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { BsGithub } from "react-icons/bs";
+import { BsFillCCircleFill } from "react-icons/bs";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../framerMotion/variants";
+import { fadeIn } from "../../framerMotion/variants"
+
 
 const skills = [
+  {
+    skill: "C/C++",
+    icon: BsFillCCircleFill,
+  },
+  {
+    skill: "Python",
+    icon: FaPython,
+  },
   {
     skill: "HTML",
     icon: FaHtml5,
@@ -27,6 +38,14 @@ const skills = [
     icon: IoLogoJavascript,
   },
   {
+    skill: "NodeJS",
+    icon: FaNodeJs,
+  },
+  {
+    skill: "ReactJS",
+    icon: FaReact,
+  },
+  {
     skill: "MongoDB",
     icon: SiMongodb,
   },
@@ -35,35 +54,28 @@ const skills = [
     icon: SiExpress,
   },
   {
-    skill: "ReactJS",
-    icon: FaReact,
+    skill: "NextJS",
+    icon: SiNextdotjs,
   },
   {
-    skill: "NodeJS",
-    icon: FaNodeJs,
+    skill: "Github",
+    icon:  BsGithub ,
   },
   {
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
-  },
-  {
     skill: "Bootstrap",
     icon: FaBootstrap,
   },
-  {
-    skill: "Python",
-    icon: FaPython,
-  },
+  
 ];
 
 const AllSkills = () => {
   return (
     <div>
-      <div className="flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto">
+      <div className="flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto animate-garv">
         {skills.map((item, index) => {
           return (
             <motion.div

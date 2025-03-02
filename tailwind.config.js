@@ -41,6 +41,20 @@ export default {
       darkGrey: "#3f4441",
     },
     extend: {
+      animation: {
+        marquee: 'marquee 20s linear infinite',
+        garv: 'garv 19s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        garv: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
       boxShadow: {
         cyanShadow: "0px 0px 20px 0px rgba(94, 206, 220, 0.5)",
         cyanBigShadow: "10px 10px 1000px 500px rgba(94, 206, 220, 0.3)",
