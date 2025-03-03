@@ -8,6 +8,7 @@ const projects = [
   {
     name: "Youtube Sentiment Analyzer",
     year: "2024",
+    techStack: "React, Node, Express, MongoDB",
     align: "right",
     image: "/images/CommentAnalyzerSS.png",
     link: "https://youtube-comment-analyzer-delta.vercel.app/",
@@ -29,6 +30,7 @@ const projects = [
   {
     name: "Omni Food",
     year: "2024",
+    techStack: "HTML, Bootstrap, JavaScript, jQuery",
     align: "left",
     image: "/images/OmniFoodSS.jpg",
     link: "https://omni-food-ws4s.onrender.com",
@@ -53,6 +55,7 @@ const ProjectsMain = () => {
               key={index}
               name={project.name}
               year={project.year}
+              techStack={project.techStack}
               align={project.align}
               image={project.image}
               link={project.link}

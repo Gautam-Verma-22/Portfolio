@@ -2,7 +2,7 @@ import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-const SingleProject = ({ name, year, align, image, link }) => {
+const SingleProject = ({ name, year, techStack, align, image, link }) => {
   return (
     <motion.div
       variants={fadeIn("top", 0)}
@@ -21,6 +21,13 @@ const SingleProject = ({ name, year, align, image, link }) => {
           }`}
         >
           {year}
+        </h2>
+        <h2
+          className={`text-xs font-thin text-white font-special sm:text-center ${
+            align === "left" ? "md:text-right" : "md:text-left"
+          }`}
+        >
+          {techStack}
         </h2>
         <a
           href={link}
