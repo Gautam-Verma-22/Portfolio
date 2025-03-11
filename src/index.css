@@ -16,3 +16,11 @@ html {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
 }
+@keyframes scrollUp {
+  0% {
+    transform: translateY(100%); /* Start from the bottom */
+  }
+  100% {
+    transform: translateY(-100%); /* Scroll to the top */
+  }
+}
