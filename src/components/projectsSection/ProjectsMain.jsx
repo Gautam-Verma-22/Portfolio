@@ -30,11 +30,12 @@ const projects = [
     link: "https://omni-food-ws4s.onrender.com",
   },
   {
-    name: "Chat Application",
+    name: "Password Manager",
     year: "2025",
+    techStack: "React, TailwindCSS, JavaScript",
     align: "left",
-    image: "/images/website-img-3.jpg",
-    link: "#",
+    image: "/images/PassOp.png",
+    link: "https://password-manager-gamma-six.vercel.app/",
   },
 
 ];
