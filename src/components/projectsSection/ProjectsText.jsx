@@ -5,7 +5,7 @@ const ProjectsText = () => {
       <p className="text-lg text-center">
         I have worked on a variety of web development projects, ranging from
         responsive websites for projects to Software applications and
-        complex MERN stack development.
+        complex Chatbots applications.
       </p>
     </div>
   );
