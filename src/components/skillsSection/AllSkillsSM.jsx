@@ -18,6 +18,10 @@ import { GrOracle } from "react-icons/gr";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaDocker } from "react-icons/fa";
 import { SiKubernetes } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { SiJest } from "react-icons/si";
+import { SiBootstrap } from "react-icons/si";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { BsFillCCircleFill, BsGithub } from "react-icons/bs";
@@ -25,44 +29,44 @@ import { s } from "framer-motion/client";
 
 const skills = [
   {
-    skill: "C/C++",
-    icon: BsFillCCircleFill,
+    skill: "JavaScript",
+    icon: IoLogoJavascript,
+  },
+  {
+    skill: "TypeScript",
+    icon: SiTypescript,
   },
   {
     skill: "Python",
     icon: FaPython,
   },
   {
-    skill: "HTML",
-    icon: FaHtml5,
-  },
-  {
-    skill: "CSS",
-    icon: FaCss3Alt,
-  },
-  {
-    skill: "JavaScript",
-    icon: IoLogoJavascript,
-  },
-  {
-    skill: "NodeJS",
-    icon: FaNodeJs,
+    skill: "C/C++",
+    icon: BsFillCCircleFill,
   },
   {
     skill: "ReactJS",
     icon: FaReact,
   },
   {
-    skill: "ExpressJS",
-    icon: SiExpress,
-  },
-  {
     skill: "NextJS",
     icon: SiNextdotjs,
   },
   {
+    skill: "NodeJS",
+    icon: FaNodeJs,
+  },
+  {
+    skill: "ExpressJS",
+    icon: SiExpress,
+  },
+  {
     skill: "MongoDB",
     icon: SiMongodb,
+  },
+  {
+    skill: "PostgreSQL",
+    icon: SiPostgresql,
   },
   {
     skill: "SQL",
@@ -73,28 +77,40 @@ const skills = [
     icon: GrOracle,
   },
   {
-    skill: "Firebase",
-    icon: IoLogoFirebase,
+    skill: "HTML",
+    icon: FaHtml5,
+  },
+  {
+    skill: "CSS",
+    icon: FaCss3Alt,
+  },
+  {
+    skill: "TailwindCSS",
+    icon: RiTailwindCssFill,
+  },
+  {
+    skill: "Bootstrap",
+    icon: SiBootstrap,
+  },
+  {
+    skill: "AWS",
+    icon: FaAws,
   },
   {
     skill: "Docker",
     icon: FaDocker,
   },
   {
-    skill: "Kubernetes",
-    icon: SiKubernetes,
+    skill: "Firebase",
+    icon: IoLogoFirebase,
+  },
+  {
+    skill: "Jest",
+    icon: SiJest,
   },
   {
     skill: "Selenium",
     icon: SiSelenium,
-  },
-  {
-    skill: "DBEaver",
-    icon: SiDbeaver,
-  },
-  {
-    skill: "AWS",
-    icon: FaAws,
   },
   {
     skill: "Postman",
@@ -109,8 +125,8 @@ const skills = [
     icon: FaGitlab,
   },
   {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
+    skill: "DBEaver",
+    icon: SiDbeaver,
   },
 ];
 

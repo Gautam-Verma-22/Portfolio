@@ -11,7 +11,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="lg:text-2xl sm:text-xl  uppercase text-lightGrey "
       >
-        Full stack Software developer
+        Full-Stack Software Developer | MERN Stack
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}

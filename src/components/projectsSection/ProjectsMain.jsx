@@ -6,6 +6,22 @@ import { link } from "framer-motion/client";
 
 const projects = [
   {
+    name: "ChessMate-Play Chess",
+    year: "2026",
+    techStack: "React, Node, Express, Supabase, TypeScript, Sonar, Trivy, Code-Coverage",
+    align: "right",
+    image: "/images/chessmate_collage_4.png",
+    link: "chess-mate-pi.vercel.app",
+  },
+  {
+    name: "Safar AI-Trip Planner",
+    year: "2025",
+    techStack: "React.js, Firebase, Gemini API, Google Places API",
+    align: "left",
+    image: "/images/safar_collage.png",
+    link: "https://www.safarai.in",
+  },
+  {
     name: "Youtube Sentiment Analyzer",
     year: "2024",
     techStack: "React, Node, Express, MongoDB",

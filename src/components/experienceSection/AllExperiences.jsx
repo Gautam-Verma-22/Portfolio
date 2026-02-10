@@ -6,25 +6,26 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "Front-End Developer",
-    company: "VRV Security",
-    date: "NOV 2024 - Mar 2025",
+    job: "Software Engineering Intern",
+    company: "Dataflow",
+    date: "Aug 2025 - Present",
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Full-stack development of CommunifAI portal.",
+      "Integrated chatbot using Amazon Bedrock and AI tools.",
+      "Developed RESTful APIs with Express.js and Postman.",
+      "Automated testing with Jest, achieving 90%+ coverage.",
+      "Integrated SonarQube and Trivy in CI/CD pipeline.",
     ],
   },
   {
-    job: "Software Developer (Intern)",
-    company: "Dataflow Group",
-    date: "Aug 2024 - Present",
+    job: "Front-End Developer",
+    company: "VRV Security",
+    date: "Nov 2024 - Mar 2025",
     responsibilities: [
-      "Participating in large scale application.",
-      "Creating chatbots and webscraping",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Implemented reusable components for large-scale apps.",
+      "Optimized web application performance.",
+      "Built responsive and scalable web applications.",
+      "Generated innovative ideas for better UX.",
     ],
   },
 ];
